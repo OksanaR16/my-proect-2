@@ -1,13 +1,128 @@
-body {font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-color: #212121;
-font-size: ;
-font-weight:700 ;
-background-color: aqua;
+:root {
+--background-section-color: #F5F4FA;
+--brand-color: #2196F3;
+--text-color-white:#FFFFFF;
+--desc-color: #757575;
 
 }
 
+body {
+   font-family: 'Roboto', sans-serif;
+ /*  font-family: 'Raleway', sans-serif; */
 
- .complex_list {
-    display: flex;
+color: #212121;
+background-color: #FFFFFF;
+font-size: ;
+font-weight:700 ;
+}
+a {
+   text-decoration:none;
  }
+/* header шапка*/
+.header-color  {
+   background-color: #FFFFFF; 
+}
+
+.logo {
+   cursor: pointer;
+   color: #000000;
+}
+.logo-color {
+   color: var(--brand-color);
+}
+/* header nav*/
+.list {
+   list-style: none;
+}
+.nav-item{
+color: #212121 ;
+}
+.nav-item:hover,
+.nav-item:focus {
+   color: var(--brand-color);
+}
+/* header contact*/
+.contact-link {
+   color: #757575;
+}
+
+.contact-link:hover , 
+.contact-link:focus {
+   color: var(--brand-color);
+}
+
+/* main section banner*/
+.banner {
+   background-color: rgba(0, 0, 0, 0.25);
+   color: var(--text-color-white);
+}
+.banner-btn {
+   background-color: var(--brand-color);
+   color: var(--text-color-white);
+   cursor: pointer;
+}
+
+/* main section special особенности*/
+
+.special {
+   background-color: #FFFFFF;
+}
+.noTitle {
+   display: none;
+}
+
+.special p {
+   color:var(--desc-color);
+}
+
+/* main section we are doing Чим ми займаємося */
+
+/* main section our team Наша команда */
+
+.ourTeam {
+   background-color: #F5F4FA;
+}
+
+.teamList {
+background-color: #FFFFFF;
+}
+.teamList p {
+   color: var(--desc-color);
+}
+
+/* footer */
+.footer {
+   background-color: #2F303A;
+   color: var(--text-color-white)
+} 
+
+.textFooter {
+   color:rgba(255, 255, 255, 0.6)
+}
+.white-text {
+   color: #FFFFFF;
+}
+ /* shapka
+ 212121
+ 2196F3
+ 757575   */
+ /* osobennosti
+ 212121
+ 757575   */
+ /* komanda
+ 212121
+ 757575 
+ FFFFFF
+ F5F4FA  */
+
+ /* footter
+ 2196F3
+ 2F303A
+ FFFFFF 100% n 60%   */
+ /* portfolio
+ 212121
+ 757575 
+ FFFFFF
+ F5F4FA
+ EEEEEE
+ 2196F3  */
