@@ -5,28 +5,37 @@
 --desc-color: #757575;
 --link-head-color: #757575;
 --main-text-color: #212121;
+--white-fon-color: #ffffff;
 }
 
 body {
-   font-family: 'Roboto', sans-serif;
- /*  font-family: "Raleway";
- font-style: bold;
-font-size:26;
-font-weight: 700;
-Line height: 31px
-Line height: 100%*/
-color: var(--main-text-color);
-background-color: #FFFFFF;
-font-size: 14px;
-
+   font-family: 'Roboto','Raleway', sans-serif;
+   color: var(--main-text-color);
+   background-color: var(--white-fon-color);
 } 
 .link{
    text-decoration: none;
 }
 
-/* header шапка*/
-.header-color  {
-   background-color: #FFFFFF; 
+.list {
+   list-style: none;
+}
+
+.visually-hidden {
+   position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+ }
+/* ------- HEADER--------------------шапка*/
+.header  {
+  
 }
 
 .logo {
@@ -46,9 +55,7 @@ font-size: 14px;
    color: var(--brand-color);
 }
 /* header nav*/
-.list {
-   list-style: none;
-}
+
 .nav-item{
    color: var(--main-text-color);
    font-size: 14px;
@@ -75,7 +82,7 @@ font-size: 14px;
    color: var(--brand-color);
 }
 
-/* main section hero*/
+/* ---main section HERO----------------*/
 .hero {
    background-color: rgba(0, 0, 0, 0.25);
    color: var(--text-color-white);
@@ -96,7 +103,7 @@ font-size: 14px;
    color: var(--text-color-white);
    cursor: pointer;
    border: none;
-   font-family: 'Roboto';
+   font-family: inherit;
    font-style: normal;
    font-weight: 700;
    font-size: 16px;
@@ -109,20 +116,12 @@ font-size: 14px;
    letter-spacing: 0.06em;
 }
 
-/* main section special особенности*/
+/* main section --SPECIAL-- особенности*/
 
 .special {
-   background-color: #FFFFFF;
+  
 }
-.visually-hidden {
-   clip: rect(0 0 0 0);
-   clip-path: inset(50%);
-   height: 1px;
-   overflow: hidden;
-   position: absolute;
-   white-space: nowrap;
-   width: 1px;
- }
+
 
 .special-title {
    font-weight: 700;
@@ -140,7 +139,7 @@ font-size: 14px;
    letter-spacing: 0.03em;
 }
 
-/* main section we are doing Чим ми займаємося */
+/* main section we are DOING Чим ми займаємося */
 .doing-title {
    font-weight: 700;
    font-size: 36px;
@@ -162,7 +161,7 @@ font-size: 14px;
    letter-spacing: 0.03em;
 }
 .teamList {
-background-color: #FFFFFF;
+background-color: var(--white-fon-color);
 }
 .teamList-title {
    font-weight: 500;
@@ -175,7 +174,7 @@ background-color: #FFFFFF;
    color: var(--main-text-color);
 }
 .teamList-desc {
-   font-family: 'Roboto';
+   font-family: inherit;
    font-size: 16px;
    line-height: 1.19;
    /* identical to box height */
@@ -236,7 +235,7 @@ background-color: #FFFFFF;
    background-color: #F5F4FA;
    cursor: pointer;
    border: none;
-   font-family: 'Roboto';
+   font-family: inherit;
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -281,27 +280,3 @@ border: 1px solid #EEEEEE;
    /* identical to box height, or 188% */
    letter-spacing: 0.03em;
 }
- /* shapka
- 212121
- 2196F3
- 757575   */
- /* osobennosti
- 212121
- 757575   */
- /* komanda
- 212121
- 757575 
- FFFFFF
- F5F4FA  */
-
- /* footter
- 2196F3
- 2F303A
- FFFFFF 100% n 60%   */
- /* portfolio
- 212121
- 757575 
- FFFFFF
- F5F4FA
- EEEEEE
- 2196F3  */
