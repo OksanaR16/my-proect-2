@@ -7,17 +7,22 @@
 }
 
 body {
-   font-family: 'Roboto', sans-serif;
- /*  font-family: 'Raleway', sans-serif; */
-
+   font-family: 'Roboto', 'Raleway', sans-serif;
+ /*  font-family: "Raleway";
+ font-style: bold;
+font-size:26;
+font-weight: 700;
+Line height: 31px
+Line height: 100%*/
 color: #212121;
 background-color: #FFFFFF;
-font-size: ;
-font-weight:700 ;
-}
+font-size: 14px;
+
+} 
 a {
-   text-decoration:none;
- }
+   text-decoration: none;
+}
+
 /* header шапка*/
 .header-color  {
    background-color: #FFFFFF; 
@@ -26,6 +31,11 @@ a {
 .logo {
    cursor: pointer;
    color: #000000;
+   font-family: Ralwey;
+   font-style: bold;
+   font-size: 26px;
+   font-weight: 700;
+   text-align: left;
 }
 .logo-color {
    color: var(--brand-color);
@@ -35,7 +45,9 @@ a {
    list-style: none;
 }
 .nav-item{
-color: #212121 ;
+   color: #212121;
+   font-size: 14;
+   font-weight: 500px;
 }
 .nav-item:hover,
 .nav-item:focus {
@@ -60,6 +72,7 @@ color: #212121 ;
    background-color: var(--brand-color);
    color: var(--text-color-white);
    cursor: pointer;
+   border: none;
 }
 
 /* main section special особенности*/
@@ -90,15 +103,49 @@ background-color: #FFFFFF;
    color: var(--desc-color);
 }
 
+/*---------------------portfolio-----page 2-------------*/
+
+/* portfolio main section */
+
+.filter-btn {
+   background-color: #F5F4FA;
+   cursor: pointer;
+   border: none;
+}
+
+.filter-btn:hover ,
+.filter-btn.filter-btn:focus {
+ background-color: var(--brand-color);
+ color: #ffffff;
+}
+
+.portfolio {
+
+}
+.portfolio-list {
+
+}
+.portfolio-item {
+border: 1px solid #EEEEEE;
+}
+.portfolio-item p {
+   color: var(--desc-color);
+}
 /* footer */
 .footer {
    background-color: #2F303A;
-   color: var(--text-color-white)
+   color: var(--text-color-white);
 } 
 
 .textFooter {
    color:rgba(255, 255, 255, 0.6)
 }
+.textFooter:hover ,
+.textFooter:focus  {
+   color: var(--brand-color);
+}
+
+
 .white-text {
    color: #FFFFFF;
 }
